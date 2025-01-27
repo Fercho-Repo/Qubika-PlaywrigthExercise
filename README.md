@@ -1,36 +1,3 @@
-// Folder structure representation and README.md content
-
-// 1. Folder structure and files:
-project/
-├── pages/
-│   ├── loginPage.js
-│   ├── dashboardPage.js
-│   ├── categoryPage.js
-├── api/
-│   ├── user.js
-├── tests/
-│   ├── e2e.test.js
-├── README.md
-├── playwright.config.js
-├── package.json
-├── package-lock.json
-
-// Package.json file
-{
-  "name": "qubika-sports-club",
-  "version": "1.0.0",
-  "description": "End-to-end automation for Qubika Sports Club Management using Playwright.",
-  "main": "index.js",
-  "scripts": {
-    "test": "npx playwright test"
-  },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@playwright/test": "^1.36.0",
-    "axios": "^1.4.0"
-  }
-}
 
 // README.md file
 # Qubika Sports Club Management E2E Automation
