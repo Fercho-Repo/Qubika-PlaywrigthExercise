@@ -1,0 +1,106 @@
+/*Modal*/
+.modal{ position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(0,0,0,.5); z-index: 9999999; opacity: 0; visibility: hidden; transition: var(--transition); }
+.modal.show{ opacity: 1; visibility: visible; }
+.modal .modal-content{ position: absolute; width: 1160px; height: auto; max-height: 95%; overflow: hidden; background: var(--white); padding: 40px 0 0; border-radius: 20px; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); margin-top: 150px; transition: all .7s; }
+.modal.show .modal-content{ margin-top: 0; }
+.modal .modal-content .modal-title{ margin-bottom: 40px; font-weight: 500; letter-spacing: -1px; font-size: 28px; text-align: center; }
+
+.modal .modal-content .close-modal{ position: absolute; cursor: pointer; right: 20px; top: 20px; font-size: 16px; transition: var(--transition); }
+.modal .modal-content .close-modal:hover{ color: var(--blue); }
+
+.modal .modal-content .modal-scroller{ overflow-y: auto; height: auto; max-height: calc(100vh - 100px); padding: 0 40px 40px; }
+
+/*Modal Scrollbars*/
+.modal ::-webkit-scrollbar { width: 8px; height: 8px; }  
+.modal ::-webkit-scrollbar-track { background: var(--white); }
+.modal ::-webkit-scrollbar-thumb { border-radius: 20px; border: 3px solid var(--white); background: #CCC; }
+.modal ::-webkit-scrollbar-thumb:hover { background: #BBB; }
+
+/*Modal Hubspot Form*/
+.modal .hubspot-form{ color: var(--black); }
+.modal .hubspot-form input,
+.modal .hubspot-form select,
+.modal .hubspot-form textarea{ background: #ECECEC; color: var(--black) !important; border: none; font-weight: 500; font-size: 14px; }
+.modal .hubspot-form textarea{ width: 100% !important; resize: none; }
+.modal .hubspot-form fieldset{ max-width: 100%; text-align: left; margin-bottom: 10px; display: flex; justify-content: space-between; }
+.modal .hubspot-form fieldset label{ display: flex; align-items: center; margin-bottom: 10px; }
+.modal .hubspot-form fieldset label span{ font-size: 15px; font-weight: 500; }
+.modal .hubspot-form fieldset .field{ width: calc(50% - 10px) !important; }
+.modal .hubspot-form fieldset .input{ margin: 0 !important; }
+
+    /* Multiple Checkboxes */
+    .modal .hubspot-form input[type="checkbox"]{ width: 18px !important; height: 18px !important; margin: 0 10px 0 0; }
+    .modal .hubspot-form .inputs-list.multi-container{ margin: 15px 0; }
+    .modal .hubspot-form .inputs-list li label{ position: relative; }
+    .modal .hubspot-form .inputs-list li label div.checker{ position: absolute; left: 0; }
+    .modal .hubspot-form .inputs-list li label div.checker + span{ padding-left: 25px; }
+    .modal .hubspot-form .hs-form-checkbox label{ cursor: pointer; }
+
+    /* Receive Updates from Qubika Checkbox */
+    .modal .hubspot-form fieldset .hs-form-booleancheckbox{ display: flex; align-items: center; justify-content: center; margin-top: 30px; }
+    .modal .hubspot-form fieldset .hs-form-booleancheckbox label{ cursor: pointer; }
+    .modal .hubspot-form fieldset .hs-form-booleancheckbox input{ height: auto; margin-right: 10px; cursor: pointer; }
+
+    /* Messages */
+    .modal .hubspot-form fieldset .hs-message{ width: 100% !important; }
+    .modal .hubspot-form fieldset .hs_newsletter_subscription{ width: 100% !important; }
+    .modal .hubspot-form .actions{ text-align: center; }
+    .modal .hubspot-form .hs-error-msgs{ color: #F00; font-size: 11px; margin-top: 5px; padding: 0 10px; }
+
+    /* Submit Button */
+    .modal .hubspot-form .hs_submit{ margin-top: 20px; }
+    .modal .hubspot-form .hs_submit input[type="submit"]{ padding: 10px 16px; border-radius: 4px; font-size: 14px; font-weight: 400; background: var(--blue); border: 2px solid var(--blue); color: var(--white) !important; transition: var(--transition); cursor: pointer; display: inline-block; font-family: var(--vietnam); width: auto; }
+    .modal .hubspot-form .hs_submit input[type="submit"]:hover{ background: var(--soft-violet); border-color: var(--soft-violet); }
+
+    /* Captcha */
+    .modal .hs_recaptcha{ height: 0; overflow: hidden; }
+
+/* Contact Us Modal */
+.modal.contact-us-modal .hubspot-form fieldset .hs-fieldtype-checkbox { width: 100% !important; }
+.modal.contact-us-modal .hs-fieldtype-checkbox .multi-container{ display: flex; width: 100%; gap: 0 20px; }
+
+/*Newsletter Modal*/
+.modal.newsletter-subscribe-modal .modal-content{ background: #F5F5F5 url("../img/blog/blog-top-shape.svg"); background-repeat: no-repeat; background-size: 1000px auto; background-position: center -230px; max-width: 600px; }
+.modal.newsletter-subscribe-modal .modal-content .modal-scroller{ padding: 0 40px 30px; }
+.modal.newsletter-subscribe-modal .modal-content .modal-title{ margin-bottom: 5px; letter-spacing: -1px; font-size: 32px; line-height: 1.2; }
+.modal.newsletter-subscribe-modal .modal-content .modal-title strong{ font-weight: bold; }
+.modal.newsletter-subscribe-modal .modal-content .modal-description{ margin-bottom: 30px; font-size: 16px; line-height: 1.4; text-align: center; }
+.modal.newsletter-subscribe-modal .modal-content .hs_firstname { margin-bottom: 10px; }
+.modal.newsletter-subscribe-modal .modal-content .hs-choose_your_newsletter_preferences.hs-fieldtype-checkbox{ width: 100% !important; margin-top: 20px; }
+.modal.newsletter-subscribe-modal .modal-content .hs-choose_your_newsletter_preferences.hs-fieldtype-checkbox .inputs-list.multi-container{ display: flex; flex-wrap: wrap; flex-direction: column; margin-bottom: 20px; }
+.modal.newsletter-subscribe-modal .modal-content .hs-choose_your_newsletter_preferences.hs-fieldtype-checkbox .inputs-list.multi-container span{ font-size: 14px; }
+.modal.newsletter-subscribe-modal .modal-content .hs-choose_your_newsletter_preferences.hs-fieldtype-checkbox .inputs-list.multi-container label{ display: block; }
+.modal.newsletter-subscribe-modal .modal-content .hs_choose_your_newsletter_preferences > label span{ font-weight: 600; margin-bottom: 15px; display: block; font-size: 16px; margin-top: 0; }
+.modal.newsletter-subscribe-modal .modal-content .inputs-list li .hs-form-checkbox-display{ cursor: pointer; }
+.modal.newsletter-subscribe-modal .modal-content .inputs-list li label div.checker{ top: 3px !important; }
+.modal.newsletter-subscribe-modal fieldset.form-columns-2{ margin-bottom: 0 !important; }
+.modal.newsletter-subscribe-modal .hubspot-form fieldset .field.hs_email{ width: 100% !important; }
+.modal.newsletter-subscribe-modal .hubspot-form fieldset .field.hs_email input{ width: 100% !important; }
+.modal.newsletter-subscribe-modal .hs-error-msgs label{ font-size: 13px; color: #F00; padding-left: 0 !important; margin-bottom: 20px; display: block; }
+
+@media screen and (max-width: 1280px){
+
+    .modal .modal-content{ width: 96%; }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .modal .hubspot-form fieldset{ flex-direction: column; margin-bottom: 0 !important; }
+    .modal .hubspot-form fieldset .field{ width: 100% !important; margin-bottom: 20px !important; }
+
+    .modal .modal-content .modal-scroller{ padding: 0 20px 40px; }
+
+}
+
+@media screen and (max-width: 767px){
+
+    .modal .hubspot-form input,
+    .modal .hubspot-form select,
+    .modal .hubspot-form textarea{ width: 100% !important; }
+
+    .modal.newsletter-subscribe-modal .modal-content .modal-scroller{ padding: 0 30px 30px; }
+    .modal.newsletter-subscribe-modal .modal-content .modal-title{ font-size: 26px; }
+    .modal.newsletter-subscribe-modal .modal-content .modal-description{ font-size: 14px; }
+
+}

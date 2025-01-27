@@ -1,0 +1,66 @@
+.our-values-shared{ padding: 100px; border-radius: 40px; color: var(--white); background: linear-gradient(0deg, #000000, #000000), radial-gradient(100.85% 30.63% at 50% 5.74%, rgba(55, 55, 55, 0.59) 0%, rgba(0, 0, 0, 0) 100%); }
+
+.our-values-shared .head{ display: flex; align-items: center; flex-direction: column; text-align: center; max-width: 500px; margin: 0 auto 180px; }
+.our-values-shared .head .small-title{ color: #C4C4C4; text-transform: uppercase; font-size: 16px; margin-bottom: 15px; }
+.our-values-shared .head .title{ font-size: 38px; margin-bottom: 30px; font-weight: 300; }
+.our-values-shared .head .description{ font-size: 20px; line-height: 1.5; color: #C4C4C4; font-weight: 200; }
+
+.our-values-shared .values-list{ display: flex; flex-wrap: wrap; justify-content: space-between; }
+.our-values-shared .values-list li{ width: 45%; margin-bottom: 150px; }
+.our-values-shared .values-list li .box-content{ position: relative; padding: 50px; }
+.our-values-shared .values-list li .box-content .main-image{ width: 220px; position: absolute; top: -70px; left: -70px; }
+.our-values-shared .values-list li .box-content .main-image img{ width: 100%; }
+.our-values-shared .values-list li .box-content .description{ position: relative; z-index: 10; }
+.our-values-shared .values-list li .box-content .description h3{ font-size: 26px; margin-bottom: 15px; }
+.our-values-shared .values-list li .box-content .description h3 span{ display: block; }
+.our-values-shared .values-list li .box-content .description p{ font-size: 16px; line-height: 1.5; color: #A7A7A7; font-weight: 300; }
+
+    .our-values-shared .values-list li.drive .main-image{}
+    .our-values-shared .values-list li.hearth .main-image{}
+    .our-values-shared .values-list li.check .main-image{ width: 190px; }
+    .our-values-shared .values-list li.handshake .main-image{ left: -80px; top: -50px; }
+    .our-values-shared .values-list li.cup .main-image{ width: 200px; }
+    .our-values-shared .values-list li.hand .main-image{ width: 150px; }
+    .our-values-shared .values-list li.oriented .main-image{ width: 200px; left: -60px; }
+    .our-values-shared .values-list li.magic .main-image{ width: 190px; left: -60px; }
+
+@media screen and (max-width: 1280px){
+
+    .our-values-shared .head .title{ font-size: 32px; }
+    .our-values-shared .head .description{ font-size: 18px; }
+
+    .our-values-shared .values-list li{ margin-bottom: 50px; width: 48%; }
+    .our-values-shared .values-list li.drive .main-image{ width: 120px; left: 10px; top: -15px; }
+    .our-values-shared .values-list li.hearth .main-image{ width: 130px; left: 10px; top: -15px; }
+    .our-values-shared .values-list li.check .main-image{ width: 120px; left: 10px; top: -15px; }
+    .our-values-shared .values-list li.handshake .main-image{ width: 130px; left: 10px; top: -15px; }
+    .our-values-shared .values-list li.cup .main-image{ width: 130px; left: 10px; top: -15px; }
+    .our-values-shared .values-list li.hand .main-image{ width: 100px; left: 10px; top: -15px; }
+    .our-values-shared .values-list li.oriented .main-image{ width: 130px; left: 10px; top: -15px; }
+    .our-values-shared .values-list li.magic .main-image{ width: 130px; left: 10px; top: -15px; }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .our-values-shared{ padding: 70px 0 80px; }
+
+    .our-values-shared .head{ margin: 0 auto 100px; }
+    .our-values-shared .head .title{ font-size: 28px; }
+    .our-values-shared .head .description{ font-size: 16px; }
+
+    .our-values-shared .values-list{ flex-direction: column; }
+    .our-values-shared .values-list li{ width: 100%; margin-bottom: 30px; }
+    .our-values-shared .values-list li .box-content{ padding: 50px 10px 50px 50px; }
+    .our-values-shared .values-list li .box-content .description h3{ font-size: 22px; }
+    .our-values-shared .values-list li .box-content .description h3 span{ display: inline; }
+    .our-values-shared .values-list li .box-content .description p{ font-size: 15px; }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+
+}

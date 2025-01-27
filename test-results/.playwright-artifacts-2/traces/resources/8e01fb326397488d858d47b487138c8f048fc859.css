@@ -1,0 +1,64 @@
+/*Thank You Page*/
+.thank-you-page{ background: var(--black) }
+
+.thank-you-page .bg-wrapper{ width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden; }
+.thank-you-page .bg-wrapper .bg{ width: 1644px; height: 1718px; background: url("../img/thank-you/background.svg"); background-size: cover; background-repeat: no-repeat; background-position: center center; position: absolute; top: -800px; left: 50%; margin-left: -340px; opacity: .5; }
+.thank-you-page .thank-you-wrapper{ color: var(--white); padding: 400px 0 250px; position: relative; z-index: 10; }
+.thank-you-page .thank-you-wrapper h1{ font-weight: 600; font-size: 90px; margin-bottom: 15px; }
+.thank-you-page .thank-you-wrapper p{ line-height: 1.8; font-size: 20px; }
+.thank-you-page .thank-you-wrapper p strong{ font-weight: 600; }
+
+/*404*/
+.error404{ background: var(--black); }
+.error404 .page-not-found-wrapper{ overflow: hidden; position: relative; }
+.error404 .main-footer{ padding-top: 0; }
+
+.error404 .center-message{ text-align: center; display: flex; align-items: center; justify-content: center; flex-direction: column; color: var(--white); padding: 350px 0 250px; z-index: 10; position: relative; }
+.error404 .center-message h1{ font-weight: 600; letter-spacing: -1px; font-size: 62px; margin-bottom: 20px; }
+
+.error404 .q-circle{ width: 100%; height: 611px; background: url("../img/404/curve.svg"); background-size: cover; position: absolute; top: 790px; left: 50%; transform: translateX(-50%); min-width: 1920px; }
+.error404 .gradient-circle{ width: 3000px; height: 1800px; position: absolute; background: radial-gradient( #3a3c47, #000, #000); left: 50%; transform: translateX(-50%); top: -230px; opacity: .5; }
+.error404 .bg-404{ width: 1258px; height: 469px; background: url("../img/404/404.svg"); background-size: cover; position: absolute; left: 50%; transform: translateX(-50%); z-index: 10; top: 190px; }
+
+.error404 .center-message .ctas{ display: flex; width: 100%; max-width: 1024px; object-fit: cover; justify-content: space-between; margin: 270px auto 0; }
+.error404 .center-message .ctas li{ width: 33.33333%; max-width: 285px; text-align: left; }
+.error404 .center-message .ctas li a{ color: var(--white); text-decoration: none; }
+.error404 .center-message .ctas li a figure{ width: 100%; height: 150px; background: #EEE; border-radius: 10px; margin-bottom: 30px; overflow: hidden; }
+.error404 .center-message .ctas li a figure img{ width: 100%; height: 100%; object-fit: cover; }
+.error404 .center-message .ctas li a .title{ font-size: 15px; margin-bottom: 10px; font-weight: 500; }
+.error404 .center-message .ctas li a .description{ font-weight: 300; font-size: 15px; color: #CBCBCB; line-height: 1.4; }
+
+@media screen and (max-width: 1280px){
+
+    .error404 .bg-404{ width: 1020px; height: 380px; top: 200px; }
+    .error404 .q-circle{ top: 810px; }
+
+}    
+
+@media screen and (max-width: 1024px){
+
+    /*Thank You*/
+    .thank-you-page .bg-wrapper .bg{ width: 1200px; height: 1254px; top: -580px; margin-left: -430px; }
+
+    .thank-you-page .thank-you-wrapper{ padding: 300px 0 100px; }
+    .thank-you-page .thank-you-wrapper h1{ font-size: 60px; }
+    .thank-you-page .thank-you-wrapper p{ font-size: 15px; }
+
+    /*404*/
+    .error404 .center-message{ padding-top: 280px; }
+    .error404 .center-message .ctas{ flex-direction: column; align-items: center; margin-top: 170px; }
+    .error404 .center-message .ctas li{ width: 100%; margin-bottom: 40px; max-width: 350px; }
+    .error404 .center-message .ctas li a figure{ height: 180px; }
+    .error404 .center-message h1{ font-size: 42px; }
+    .error404 .center-message .label{ font-size: 15px; }
+    .error404 .bg-404{ width: 800px; height: 296px; }
+    .error404 .q-circle{ top: 570px; }
+
+}
+
+@media screen and (max-width: 767px){
+
+    .error404 .bg-404{ width: 500px; height: 186px; }
+    .error404 .center-message{ padding-top: 230px; }
+
+}

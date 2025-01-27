@@ -1,0 +1,21 @@
+/*Inspire*/
+.blog-inspire{ text-align: center; background: #F5F5F5 url("../../img/blog/blog-top-shape.svg"); background-repeat: no-repeat; background-size: 1000px auto; padding: 100px 0 140px; margin-bottom: -40px; background-position: center -230px; z-index: 90; }
+.blog-inspire h3{ margin-bottom: 20px; letter-spacing: -1px; font-size: 38px; line-height: 1.2; }
+.blog-inspire h3 strong{ font-weight: bold; }
+.blog-inspire p{ margin-bottom: 35px; font-size: 21px; line-height: 1.4; }
+.blog-inspire .newsletter-form{ max-width: 600px; margin: 0 auto; text-align: left; position: relative; }
+.blog-inspire .newsletter-form .submitted-message{ text-align: center; display: block; }
+.blog-inspire .newsletter-form input{ background: var(--white); color: var(--black); font-weight: normal; font-size: 15px; border: 1px solid #CCC; }
+.blog-inspire .newsletter-form label{ font-size: 13px; margin-bottom: 10px; font-weight: 600; display: block; }
+.blog-inspire .newsletter-form .input{ max-width: calc(100% - 130px); }
+.blog-inspire .newsletter-form input[type="submit"]{ background: var(--black); color: var(--white); width: 120px; font-weight: 600; font-size: 16px; margin: 0 auto; cursor: pointer; display: block; border: 1px solid var(--black); position: absolute; top: 0; right: 0; }
+.blog-inspire .newsletter-form input[type="submit"]:hover{ background: transparent; color: var(--black); }
+.blog-inspire .newsletter-form .hs-error-msg{ font-weight: normal; margin-top: 10px; color: #F00; }
+
+@media screen and (max-width: 1024px){
+
+    /*Inspire*/
+    .blog-inspire h3{ font-size: 32px; }
+    .blog-inspire p{ font-size: 16px; }
+
+}

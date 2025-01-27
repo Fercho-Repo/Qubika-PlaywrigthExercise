@@ -1,0 +1,38 @@
+:root {
+    
+    /*colors*/
+    --white: #FFF;
+    --black: #000;
+    --gray: #F8F8F8;
+  
+    --blue: #2946cf;    
+    --red: #f4594e;
+
+    --soft-violet: #97a3e6;
+    --soft-green: #6de7a1;
+
+    --dark-blue: #001888;
+    --light-blue: #3379cc;
+    --light-green: #57e59e;
+    --sky: #76b5ff;
+
+    /*studios colors*/
+    --studio-ai: #F4594E;
+    --studio-app: #F4594E;
+    --studio-blockchain: #D348EA;
+    --studio-data: #96C5FF;
+    --studio-firmware: #FFB600;
+    --studio-platform: #2946CF;
+    --studio-design: #A248EA;
+    --studio-management: #3379CC;
+    --studio-qa: #00BD5F;
+    --studio-sre: #0D5BFF;
+
+    /*transitions*/
+    --transition: all .3s;
+
+    /*fonts*/
+    --vietnam: "Be Vietnam Pro";
+    --qubika: "qubika";
+    
+  }

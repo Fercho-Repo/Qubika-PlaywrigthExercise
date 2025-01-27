@@ -1,0 +1,274 @@
+/*Case Study*/
+.case-study{ padding: 122px 0 115px 0; }
+
+.case-study .cases-arrows{ display: flex; margin-top: 30px; }
+
+.case-study .cases-carousel .cases-list li a{ color: var(--black); }
+
+.case-study .cases-carousel .cases-list li.swiper-slide *{ opacity: 0; transition: .5s .3s; }
+.case-study .cases-carousel .cases-list li.swiper-slide.swiper-slide-active *{ opacity: 1; }
+
+.case-study .cases-carousel .cases-list li .case-wrapper{ display: flex !important; align-items: center; justify-content: space-between; }
+
+.case-study .cases-carousel .cases-list li .case-wrapper .left{ width: 36%; }
+.case-study .cases-carousel .cases-list li .case-wrapper .left figure{ width: 140px; height: auto; display: inline-block; }
+.case-study .cases-carousel .cases-list li .case-wrapper .left figure img{ width: 100%; }
+
+    .case-study .cases-carousel .cases-list li.land-id .case-wrapper .left figure{ width: 105px; }    
+    .case-study .cases-carousel .cases-list li.you-science .case-wrapper .left figure{ width: 140px; }
+    .case-study .cases-carousel .cases-list li.vooks .case-wrapper .left figure{ width: 100px; }
+    .case-study .cases-carousel .cases-list li.shopify .case-wrapper .left figure{ width: 130px; }
+    .case-study .cases-carousel .cases-list li.celbrea .case-wrapper .left figure{ width: 140px; }    
+    .case-study .cases-carousel .cases-list li.brainfm .case-wrapper .left figure{ width: 145px; }
+    .case-study .cases-carousel .cases-list li.wearables .case-wrapper .left figure{ width: 150px; }
+    .case-study .cases-carousel .cases-list li.onesignal .case-wrapper .left figure{ width: 155px; }
+    .case-study .cases-carousel .cases-list li.tabula-rasa .case-wrapper .left figure{ width: 180px; }
+    .case-study .cases-carousel .cases-list li.ripple .case-wrapper .left figure{ width: 140px; }
+
+.case-study .cases-carousel .cases-list li .case-wrapper .left h5{ font-style: normal; font-weight: 700; font-size: 36px; margin: 30px 0; }
+.case-study .cases-carousel .cases-list li .case-wrapper .left p{font-style: normal; font-weight: 300; font-size: 19px; line-height: 1.6; color: #3A3A3A; }
+.case-study .cases-carousel .cases-list li .case-wrapper .left p span,
+.case-study .cases-carousel .cases-list li .case-wrapper .left p strong{ font-weight: 600; }
+
+.case-study .cases-carousel .cases-list li .case-wrapper .right{ display: flex; flex-wrap: wrap; justify-content: space-between; width: calc(60% - 60px); }
+.case-study .cases-carousel .cases-list li .case-wrapper .right figure{ width: 100%; border-radius: 20px; overflow: hidden; line-height: 0; }
+.case-study .cases-carousel .cases-list li .case-wrapper .right figure img{ width: 100%; }
+.case-study .cases-carousel .cases-list li .case-wrapper .right .column-main{ width: 60%; }
+.case-study .cases-carousel .cases-list li .case-wrapper .right .column{ width: 37%; display: flex; flex-direction: column; justify-content: space-between; }
+
+/*Testimonials*/
+.testimonials { padding: 90px 0 70px; }
+.testimonials .content { max-width: 870px; }
+
+/*Testimonials Carousel*/
+.testimonials .testimonials-carousel{ position: relative; }
+
+.testimonials .testimonials-carousel .testimonials-list .card.swiper-slide *{ opacity: 0; transition: .5s .3s; }
+.testimonials .testimonials-carousel .testimonials-list .card.swiper-slide.swiper-slide-active *{ opacity: 1; }
+
+.testimonials .testimonials-carousel .testimonials-list{ position: relative; }
+.testimonials .testimonials-carousel .testimonials-list .card { display: flex; flex-direction: column; }
+.testimonials .testimonials-carousel .testimonials-list .card figure { margin-bottom: 50px; width: 140px; height: auto; display: inline-block; }
+.testimonials .testimonials-carousel .testimonials-list .card figure img { width: 100%; }
+
+    .testimonials .testimonials-carousel .testimonials-list .card.you-science figure{ width: 140px; }
+    .testimonials .testimonials-carousel .testimonials-list .card.land-id figure{ width: 105px; }    
+    .testimonials .testimonials-carousel .testimonials-list .card.cardiex figure{ width: 130px; }
+
+.testimonials .testimonials-carousel .testimonials-list .card h5 { font-size: 36px; line-height: 1.3; }
+.testimonials .testimonials-carousel .testimonials-list .card p { font-size: 20px; padding-top: 95px; margin-left: auto; width: 100%; text-align: right; }
+.testimonials .testimonials-carousel .testimonials-list .card p span { color: #9D9D9D; }
+
+.testimonials .testimonials-carousel .carrousel-dots{ left: 10px; }
+
+    /*Cases Testimonials*/
+    .case-study-page .testimonials .testimonials-carousel .testimonials-list .card h5{ font-size: 28px; }
+
+/*WYSIWYG*/
+.wysiwyg .content { max-width: 585px; }
+.wysiwyg .content p { font-size: 18px; color: #3A3A3A; line-height: 1.6; padding: 15px 0; }
+.wysiwyg .content span { font-size: 18px; color: #3A3A3A; line-height: 1.6; }
+.wysiwyg .content h1,
+.wysiwyg .content h2, 
+.wysiwyg .content h3,
+.wysiwyg .content h4,
+.wysiwyg .content h5 { font-weight: 600; line-height: 1.3; padding: 5px 0; }
+
+.wysiwyg .content h1 { font-size: 36px; font-weight: 700; }
+.wysiwyg .content h2 { font-size: 36px; font-weight: 600; }
+.wysiwyg .content h3 { font-size: 28px; }
+.wysiwyg .content h4 { font-size: 24px; }
+.wysiwyg .content h5 { font-size: 18px; }
+.wysiwyg .content h6,
+.wysiwyg .content .wp-caption-text { color: #3A3A3A; font-size: 14px; padding: 5px 0; }
+.wysiwyg .content hr { opacity: 0.2; margin-bottom: 40px; }
+.wysiwyg .content .wp-caption { width: auto !important; margin: 20px 0; }
+
+.wysiwyg .content ol { list-style: revert; padding-left: 15px; }
+.wysiwyg .content ol li { font-size: 18px; color: #3A3A3A; line-height: 1.6; margin: 0 0 30px 10px; }
+.wysiwyg .content ul { list-style: outside; padding-left: 15px; }
+.wysiwyg .content ul li { font-size: 18px; color: #3A3A3A; line-height: 1.6;  margin: 0 0 30px 10px; }
+.wysiwyg .content ul ul { list-style-type: circle; }
+.wysiwyg .content strong,
+.wysiwyg .content b { font-weight: 600; }
+.wysiwyg .content i,
+.wysiwyg .content em{ font-style: italic; }
+.wysiwyg .content a,
+.wysiwyg .content a span { text-decoration: underline; font-weight: 600; color: var(--blue); }
+.wysiwyg .content a:hover,
+.wysiwyg .content a:hover span { text-decoration: none; }
+
+/* Youtube Video */
+.wysiwyg.youtube-video{ padding: 20px 0 50px; }
+.wysiwyg.youtube-video .content{ position: relative; border-radius: 20px; overflow: hidden; background: var(--black); max-width: 1180px; height: 664px; }
+.wysiwyg.youtube-video .content p{ width: 100%; height: 100%; padding: 0; line-height: 0; }
+.wysiwyg.youtube-video .content iframe{ width: 100%; height: 100%; }
+
+/*Work Testimonials*/
+.work-testimonials{ background: var(--black); color: var(--white); padding: 140px 0 100px; margin-top: -40px; }
+.work-testimonials .work-testimonials-carousel{ max-width: 860px; margin: 0 auto; position: relative; }
+.work-testimonials .work-testimonials-carousel ul{}
+.work-testimonials .work-testimonials-carousel ul li{ display: flex; align-items: center; justify-content: center; flex-direction: column; }
+.work-testimonials .work-testimonials-carousel ul li figure{ margin-bottom: 30px; width: 160px; }
+.work-testimonials .work-testimonials-carousel ul li figure img{ width: 100%; }
+.work-testimonials .work-testimonials-carousel ul li .quote{ color: #C1C1C1; font-size: 26px; padding: 20px 0; text-align: center; line-height: 1.2; font-weight: 200; }
+.work-testimonials .work-testimonials-carousel ul li .quoter{ font-weight: 300; font-size: 16px; margin-top: 20px; }
+
+.work-testimonials .work-testimonials-carousel ul li.youscience-testimonial figure{ width: 140px; }
+.work-testimonials .work-testimonials-carousel ul li.landid-testimonial figure{ width: 130px; }
+.work-testimonials .work-testimonials-carousel ul li.cardiex-testimonial figure{ width: 140px; }
+
+.work-testimonials .work-testimonials-carousel .work-testimonials-pagination{ position: relative; bottom: 0; z-index: 10; display: flex; width: 100%; align-items: center; justify-content: center; margin-top: 70px; }
+.work-testimonials .work-testimonials-carousel .work-testimonials-pagination .swiper-pagination-bullet{ width: 7px; height: 7px; background: #373737; opacity: 1; }
+.work-testimonials .work-testimonials-carousel .work-testimonials-pagination .swiper-pagination-bullet-active{ background: #D9D9D9; }
+
+/* Loading Spinner */
+.loading-spinner{ position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 999999999; background: rgba(0,0,0,.6); display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: var(--transition); }
+.loading-spinner .spinner{ width: 48px; height: 48px; border-radius: 50%; display: inline-block; border-top: 3px solid #FFF; border-right: 3px solid transparent; box-sizing: border-box; animation: rotation 1s linear infinite; }
+.loading-spinner.show{ opacity: 1; visibility: visible; }
+
+/* FAQs */
+.faqs{ padding: 0 0 130px; }
+.faqs .faqs-title{ background: linear-gradient(90.12deg, #000000 38.77%, #296794 144.39%); color: var(--white); padding: 40px; border-radius: 20px; max-width: 1024px; margin: 0 auto 50px; overflow: hidden; position: relative; }
+.faqs .faqs-title:before{ content: ""; width: 700px; height: 907px; background: url("../img/shared/faq-bg.svg"); background-size: 700px 907px; display: block; position: absolute; top: -370px; right: -130px; opacity: .7; }
+.faqs .faqs-title:after{ content: ""; display: block; width: 500px; height: 500px; background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%); position: absolute; top: -50px; left: 350px; }
+.faqs .faqs-title .title{ font-size: 52px; letter-spacing: -1px; position: relative; z-index: 20; }
+.faqs .faqs-title p{ font-size: 16px; font-weight: 300; position: relative; z-index: 20; }
+
+.faqs .faqs-section{ max-width: 920px; margin: 0 auto; }
+.faqs .faqs-section .faq-item{ cursor: pointer; padding: 25px 25px 25px 60px; border-radius: 10px; transition: var(--transition); position: relative; overflow: hidden; }
+.faqs .faqs-section .faq-item:before{ content: '\e82d'; font-family: var(--qubika); font-size: 16px; position: absolute; top: 28px; left: 25px; transition: var(--transition); }
+.faqs .faqs-section .faq-item:hover{ background: #f9f9f9; }
+.faqs .faqs-section .faq-item .faq-question{ font-size: 22px; font-weight: 500; }
+.faqs .faqs-section .faq-item .faq-answer{ line-height: 1.5; font-weight: 300; font-size: 16px; opacity: 0; visibility: hidden; transition: var(--transition); max-height: 0; }
+.faqs .faqs-section .faq-item .faq-answer strong{ font-weight: 600; }
+.faqs .faqs-section .faq-item .faq-answer a{ text-decoration: underline; color: var(--black); }
+.faqs .faqs-section .faq-item .faq-answer a:hover{ text-decoration: none; }
+
+.faqs .faqs-section .faq-item.show:before{ rotate: 180deg; }
+.faqs .faqs-section .faq-item.show .faq-answer{ display: block; opacity: 1; visibility: visible; max-height: 600px; margin-top: 20px; }
+
+.faqs .faqs-section .faq-item .faq-answer .dots{ padding-left: 10px; margin-top: 15px; }
+.faqs .faqs-section .faq-item .faq-answer .dots li{ margin-bottom: 5px; position: relative; padding-left: 15px; }
+.faqs .faqs-section .faq-item .faq-answer .dots li:before{ content: ""; display: block; position: absolute; top: 9px; left: 0; width: 5px; height: 5px; background: var(--black); border-radius: 100%; }
+
+/* Clutch Reviews */
+.reviews-awards .reviews .rating-title{ margin-top: 40px; margin-bottom: 15px; }
+.reviews-awards .reviews .stars-block{ display: flex; font-size: 17px; }
+.reviews-awards .reviews .stars-block li{}
+.reviews-awards .reviews .stars-block li.star{ width: 17px; font-size: 16px; }
+.reviews-awards .reviews .stars-block li.value{}
+.reviews-awards .reviews .stars-block li.reviews-number{ padding-left: 5px;}
+.reviews-awards .reviews .stars-block li.value .bigger{ font-size: 26px; font-weight: bold; } 
+
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} 
+
+@media screen and (max-width: 1280px){
+    
+    /*Case study*/
+    .case-study { padding: 92px 0 145px 0; }
+    .case-study .cases-carousel li .top-section-title{ margin-bottom: 30px; }
+    .case-study .cases-carousel li .left h5 { font-size: 26px; }
+    .case-study .cases-carousel li .left p { font-size: 17px; }
+    
+    /*Testimonial*/
+    .testimonials { padding: 90px 20px 70px 20px; }
+    .testimonials .testimonials-carousel { padding: 0 10px; }
+    .testimonials .testimonials-carousel .testimonials-list .card h5 { font-size: 26px; }
+    .testimonials .testimonials-carousel .testimonials-list .card p { font-size: 16px; }
+
+    /* FAQs */
+    .faqs .faqs-title .title{ font-size: 42px; }
+    .faqs .faqs-title:after{ width: 100%; left: 0; }
+    .faqs .faqs-section .faq-item .faq-question{ font-size: 20px; }
+    .faqs .faqs-section .faq-item .faq-answer{ font-size: 15px; }
+    .faqs .faqs-section .faq-item .faq-answer .dots li:before{ top: 8px; }
+
+    /* Youtube Video */
+    .wysiwyg.youtube-video{ padding: 10px 20px 30px; }
+    .wysiwyg.youtube-video .content{ height: auto; padding-top: 56.25%; }
+    .wysiwyg.youtube-video .content iframe{ position: absolute; top: 0; left: 0; }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    /*Case study*/
+    .case-study { padding: 20px 0 75px 0; }
+    .case-study .cases-carousel { margin-top: 60px; }
+    .case-study .cases-carousel .cases-list li .case-wrapper .left{ width: 40%; }
+    .case-study .cases-carousel .cases-list li .case-wrapper .left h5{ font-size: 28px; }
+    .case-study .cases-carousel .cases-list li .case-wrapper .left p{ font-size: 17px; }
+    .case-study .cases-carousel .cases-list li .top-section-title h4{ font-size: 20px; }
+    .case-study .cases-carousel .cases-list li .top-section-title .sub-title{ font-size: 12px; }
+
+    /*WYSIWYG*/
+    .wysiwyg .content{ padding: 0 40px; max-width: 100%; }
+    .wysiwyg .content p{ font-size: 16px; }
+    .wysiwyg .content h1{ font-size: 32px; }
+    .wysiwyg .content h2{ font-size: 30px; }
+    .wysiwyg .content ul li,
+    .wysiwyg .content ol li{ font-size: 16px; }
+
+    /*Work Testimonials*/
+    .work-testimonials .work-testimonials-carousel ul li .quote{ font-size: 20px; }
+    .work-testimonials .work-testimonials-carousel ul li .quoter{ font-size: 14px; }
+
+    /* FAQs */
+    .faqs{ padding: 0 0 70px; }
+    .faqs .faqs-title{ margin: 0 auto 30px; }
+    .faqs .faqs-title .title{ font-size: 32px;  }
+    .faqs .faqs-title p{ font-size: 15px; }
+    .faqs .faqs-title:before{ width: 400px; height: 518px; background-size: 400px 518px; top: -190px; }
+    .faqs .faqs-section .faq-item:before{ font-size: 14px; }
+    .faqs .faqs-section .faq-item .faq-question{ font-size: 18px; }
+    .faqs .faqs-section .faq-item .faq-answer{ font-size: 14px; }
+    .faqs .faqs-section .faq-item .faq-answer .dots li:before{ top: 7px; width: 4px; height: 4px; }
+
+    /* Clutch Reviews */
+    .reviews-awards .reviews .rating-title{ font-size: 16px; }
+    .reviews-awards .reviews .stars-block{ font-size: 15px; }
+
+}
+
+@media screen and (max-width: 767px){
+
+    /*Case study*/
+    .case-study { padding: 10px 0 45px 0; }
+    .case-study .cases-carousel .cases-list li .case-wrapper{ flex-direction: column; }
+    .case-study .cases-carousel .cases-list li .case-wrapper .left,
+    .case-study .cases-carousel .cases-list li .case-wrapper .right { width: 100%; }
+    .case-study .cases-carousel .cases-list li .case-wrapper .left{ margin-bottom: 0; order: 2; }
+    .case-study .cases-carousel .cases-list li .case-wrapper .right { padding-bottom: 50px; order: 1; }
+
+        .case-study .cases-carousel .cases-list li.you-science .case-wrapper .left figure{ width: 115px; }
+        .case-study .cases-carousel .cases-list li.land-id .case-wrapper .left figure{ width: 95px; }    
+        .case-study .cases-carousel .cases-list li.cardiex .case-wrapper .left figure{ width: 110px; }
+
+    /*Testimonial*/
+    .testimonials { padding: 70px 0 60px 0; }
+    .testimonials .testimonials-carousel .testimonials-list .card h5 { font-size: 22px; }
+    .testimonials .testimonials-carousel .testimonials-list .card figure { width: 100px; }
+    .testimonials .testimonials-carousel .testimonials-list .card p{ font-size: 16px; padding-top: 60px; }
+    .testimonials .testimonials-carousel .testimonials-list .card p span { width: 100%; display: block; margin-top: 8px; }
+    
+        .testimonials .testimonials-carousel .testimonials-list .card.you-science figure{ width: 115px; }
+        .testimonials .testimonials-carousel .testimonials-list .card.land-id figure{ width: 95px; }    
+        .testimonials .testimonials-carousel .testimonials-list .card.cardiex figure{ width: 110px; }
+    
+    .testimonials .testimonials-carousel .carrousel-dots { bottom: -20px; }
+
+    /*WYSIWYG*/
+    .wysiwyg .content p{ font-size: 14px; }
+    .wysiwyg .content img{ max-width: 100px !important; }
+    .wysiwyg .content ul li,
+    .wysiwyg .content ol li{ font-size: 14px; }
+
+    /*Contact Us Modal*/
+    .contact-us-modal .inputs-list.multi-container{ flex-wrap: wrap; }
+    .contact-us-modal .inputs-list.multi-container li{ width: 100%; }
+
+}

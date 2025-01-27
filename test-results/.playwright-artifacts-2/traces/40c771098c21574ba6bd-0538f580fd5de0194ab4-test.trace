@@ -1,0 +1,31 @@
+{"version":7,"type":"context-options","origin":"testRunner","browserName":"","options":{},"platform":"darwin","wallTime":1737989423498,"monotonicTime":125.551,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","startTime":131.898,"class":"Test","method":"hook","apiName":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"hook@2","parentId":"hook@1","startTime":132.405,"class":"Test","method":"hook","apiName":"beforeEach hook","params":{},"stack":[{"file":"/Users/fernandogranados/git/Qubika-PlaywrigthExercise/tests/testjava.test.js","line":4,"column":8}]}
+{"type":"before","callId":"fixture@3","parentId":"hook@2","startTime":136.512,"class":"Test","method":"fixture","apiName":"fixture: browser","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@4","parentId":"fixture@3","startTime":138.302,"class":"Test","method":"pw:api","apiName":"browserType.launch","params":{"handleSIGINT":"false","headless":"true","tracesDir":"/Users/fernandogranados/git/Qubika-PlaywrigthExercise/test-results/.playwright-artifacts-2/traces","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@4","endTime":524.445,"attachments":[]}
+{"type":"after","callId":"fixture@3","endTime":524.773,"attachments":[]}
+{"type":"before","callId":"fixture@5","parentId":"hook@2","startTime":525.772,"class":"Test","method":"fixture","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@6","parentId":"fixture@5","startTime":527.043,"class":"Test","method":"pw:api","apiName":"browser.newContext","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","viewport":"Object","serviceWorkers":"allow","noDefaultViewport":"false","extraHTTPHeaders":"undefined","storageState":"undefined","recordHar":"undefined","reducedMotion":"undefined","forcedColors":"undefined","clientCertificates":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@6","endTime":531.828,"attachments":[]}
+{"type":"after","callId":"fixture@5","endTime":535.385,"attachments":[]}
+{"type":"before","callId":"fixture@7","parentId":"hook@2","startTime":535.678,"class":"Test","method":"fixture","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@8","parentId":"fixture@7","startTime":536.632,"class":"Test","method":"pw:api","apiName":"browserContext.newPage","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@8","endTime":621.309,"attachments":[]}
+{"type":"after","callId":"fixture@7","endTime":621.397,"attachments":[]}
+{"type":"before","callId":"pw:api@9","parentId":"hook@2","startTime":622.808,"class":"Test","method":"pw:api","apiName":"page.goto","params":{"url":"https://www.qubika.com","waitUntil":"load"},"stack":[{"file":"/Users/fernandogranados/git/Qubika-PlaywrigthExercise/tests/testjava.test.js","line":6,"column":16}]}
+{"type":"after","callId":"pw:api@9","endTime":24887.631,"attachments":[]}
+{"type":"after","callId":"hook@2","endTime":24887.803,"attachments":[]}
+{"type":"after","callId":"hook@1","endTime":24888.295,"attachments":[]}
+{"type":"before","callId":"expect@10","startTime":24892.007,"class":"Test","method":"expect","apiName":"expect.toHaveURL","params":{"expected":"https://qubika.com"},"stack":[{"file":"/Users/fernandogranados/git/Qubika-PlaywrigthExercise/tests/testjava.test.js","line":11,"column":24}]}
+{"type":"after","callId":"expect@10","endTime":24928.648,"attachments":[]}
+{"type":"before","callId":"expect@11","startTime":24930.838,"class":"Test","method":"expect","apiName":"expect.toBeVisible","params":{},"stack":[{"file":"/Users/fernandogranados/git/Qubika-PlaywrigthExercise/tests/testjava.test.js","line":15,"column":24}]}
+{"type":"after","callId":"expect@11","endTime":24951.891,"attachments":[]}
+{"type":"before","callId":"hook@12","startTime":24952.297,"class":"Test","method":"hook","apiName":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@13","parentId":"hook@12","startTime":24952.999,"class":"Test","method":"fixture","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"after","callId":"fixture@13","endTime":24953.075,"attachments":[]}
+{"type":"before","callId":"fixture@14","parentId":"hook@12","startTime":24953.372,"class":"Test","method":"fixture","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"after","callId":"fixture@14","endTime":24953.406,"attachments":[]}
+{"type":"after","callId":"hook@12","endTime":25883.948,"attachments":[]}
+{"type":"before","callId":"attach@15","startTime":26423.26,"class":"Test","method":"attach","apiName":"attach \"trace\"","params":{},"stack":[]}
+{"type":"after","callId":"attach@15","endTime":26423.362,"attachments":[]}

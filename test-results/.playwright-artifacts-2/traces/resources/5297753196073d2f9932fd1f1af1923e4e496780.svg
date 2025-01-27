@@ -1,0 +1,29 @@
+<svg width="111" height="111" viewBox="0 0 111 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="55.5777" cy="55.2644" r="53.313" stroke="white" stroke-width="3.46645"/>
+<mask id="mask0_10875_11489" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="111" height="111">
+<circle cx="55.5777" cy="55.2644" r="55.0462" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_10875_11489)">
+<path d="M28.8957 189.897V118.772H38.038V110.519H43.9363V96.0459H51.1452V86.1014H58.5559V96.0459H67.8243V112.383H74.6073V118.772H84.9293V192.073" stroke="white" stroke-width="3.46645"/>
+<path d="M28.8957 118.89V85.7554H37.197V78.4918H43.25V70.5364H48.4383V61.7163H51.9949V52.8962H59.3239V61.7163H63.1385V70.5364H68.3268V78.4918H72.9962V85.7554H84.9293V118.89" stroke="white" stroke-width="3.46645"/>
+<path d="M28.8957 86.1015V68.2883H33.2595V60.5058H37.6234V49.7833H43.7328V39.2338H48.6203V28.6842H52.635V19.6912H59.0935V28.6842H62.4101V39.2338H67.6467V48.7457H72.8833V60.5058H78.6436V68.2883H84.9276V86.1015" stroke="white" stroke-width="3.46645"/>
+<path d="M58.2675 108.57V112.515" stroke="white" stroke-width="3.46645"/>
+<path d="M59.037 77.0555V81.0007" stroke="white" stroke-width="3.46645"/>
+<path d="M65.9224 85.2314V89.1766" stroke="white" stroke-width="3.46645"/>
+<path d="M74.4911 94.1505V98.0957" stroke="white" stroke-width="3.46645"/>
+<path d="M74.4911 104.05V107.996" stroke="white" stroke-width="3.46645"/>
+<path d="M35.1598 104.05V107.996" stroke="white" stroke-width="3.46645"/>
+<path d="M44.1049 85.2314V89.1766" stroke="white" stroke-width="3.46645"/>
+<path d="M35.1598 94.1505V98.0957" stroke="white" stroke-width="3.46645"/>
+<path d="M51.3486 108.57V112.515" stroke="white" stroke-width="3.46645"/>
+<path d="M52.1181 77.0555V81.0007" stroke="white" stroke-width="3.46645"/>
+<path d="M55.5776 66.0691V70.0143" stroke="white" stroke-width="3.46645"/>
+<path d="M55.5776 34.0736V38.0188" stroke="white" stroke-width="3.46645"/>
+<path d="M55.5776 43.2921V47.2332" stroke="white" stroke-width="3.46645"/>
+<path d="M49.954 43.2921V47.2332" stroke="white" stroke-width="3.46645"/>
+<path d="M45.0636 54.0565V57.9977" stroke="white" stroke-width="3.46645"/>
+<path d="M65.8596 54.0565V57.9977" stroke="white" stroke-width="3.46645"/>
+<path d="M61.2011 43.2921V47.2332" stroke="white" stroke-width="3.46645"/>
+<path d="M55.5776 100.105V104.05" stroke="white" stroke-width="3.46645"/>
+</g>
+</svg>

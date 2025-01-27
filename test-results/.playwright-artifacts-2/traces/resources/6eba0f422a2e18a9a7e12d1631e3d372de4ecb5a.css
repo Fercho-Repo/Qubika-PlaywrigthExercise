@@ -1,0 +1,32 @@
+.page-content-wrapper{ padding: 180px 0 100px; }
+.page-content-wrapper .page-title{ font-weight: 600; font-size: 42px; letter-spacing: -1px; margin-bottom: 40px; }
+.page-content-wrapper .page-content{ font-weight: 300; line-height: 1.5; font-size: 15px; }
+.page-content-wrapper .page-content p{ margin-bottom: 20px; }
+.page-content-wrapper .page-content ul,
+.page-content-wrapper .page-content ol{ margin-bottom: 20px; padding-left: 30px; }
+.page-content-wrapper .page-content ul{ list-style-type: disc; }
+.page-content-wrapper .page-content ol{ list-style-type: decimal; }
+
+.page-content-wrapper .page-content ul li,
+.page-content-wrapper .page-content ol li{ margin-bottom: 20px; }
+
+.page-content-wrapper .page-content strong,
+.page-content-wrapper .page-content b{ font-weight: 600; }
+
+.page-content-wrapper .page-content i{ font-style: italic; }
+
+.page-content-wrapper .page-content table{ border: 1px solid #CCC; margin: 30px 0; }
+.page-content-wrapper .page-content table td{ border: 1px solid #CCC; padding: 10px; }
+
+.page-content-wrapper .page-content a{ text-decoration: underline; }
+.page-content-wrapper .page-content a:hover{ text-decoration: none; }
+.page-content-wrapper .page-content a:visited{ color: var(--blue); }
+
+.page-content-wrapper .page-content .cky-banner-element{ cursor: pointer; color: var(--blue); }
+
+@media screen and (max-width: 767px){
+
+    .page-content-wrapper{ padding: 130px 0 70px; }
+    .page-content-wrapper .page-title{ font-size: 32px; }
+
+}

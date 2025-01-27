@@ -1,0 +1,152 @@
+html { scroll-behavior: smooth; }
+body { font-family: var(--vietnam); font-size: 18px; line-height: 1.2; font-weight: 400; overflow-x: hidden; }
+
+a { text-decoration: none; }
+.overflower{ overflow-x: clip; }
+.content { max-width: 1180px; width: 100%; margin: 0 auto; }
+
+/*Logo*/
+.logo { background-image: url("../img/qubika.svg"); background-repeat: no-repeat; background-size: contain; min-width: 115px; width: 115px; height: 32px; display: block; }
+
+/*Buttons*/
+.button,
+button { padding: 10px 16px; border-radius: 4px; font-size: 14px; font-weight: 400; background: var(--blue); border: 2px solid var(--blue); color: var(--white); transition: var(--transition); cursor: pointer; display: inline-block; font-family: var(--vietnam); }
+.button:hover,
+button.button:hover { background: var(--soft-violet); border-color: var(--soft-violet); }
+.button.secondary { background: #fff; color: #000; }
+.button.secondary:hover { background: #AB77FF; color: #fff; }
+.button.rounded{ border-radius: 12px; }
+.button.big-btn{ padding: 15px 25px; }
+
+/*WP Forms*/
+.wpforms-container .wpforms-field { padding: 0 0 20px 0!important; }
+
+div.wpforms-container-full button{ border-radius: 4px !important; background: var(--blue) !important; border: 2px solid var(--blue) !important; color: var(--white) !important; transition: var(--transition) !important; cursor: pointer !important; display: inline-block !important; font-family: var(--vietnam) !important; font-weight: 300 !important; padding: 16px 28px !important; font-size: 16px !important; height: auto !important; }
+div.wpforms-container-full button:hover { background: var(--soft-violet) !important; border-color: var(--soft-violet) !important; }
+div.wpforms-container-full button:focus{ outline: none !important; box-shadow: none !important; }
+div.wpforms-container-full button:focus:after{ display: none !important; }
+
+/*Common*/
+section{ position: relative; padding: 20px 0; }
+section.black-bg{ background-color: var(--black); color: var(--white); }
+section.grey-bg { background: var(--gray); }
+
+/*Forms*/
+input,
+select,
+textarea{ border: 1px solid #484848; resize: none; background: #111; padding: 10px 16px; border-radius: 10px !important; font-family: var(--vietnam); font-weight: 200; font-size: 16px; color: var(--white); width: 100%; transition: var(--transition); }
+
+input::placeholder,
+textarea::placeholder,
+select { color: #999 !important; } 
+
+label{ font-family: var(--vietnam); }
+
+input,
+select { height: 44px; font-family: var(--vietnam); }
+
+textarea { height: 110px; }
+
+input:hover,
+select:hover,
+textarea:hover { border: 1px solid #acacac; }
+
+input:focus,
+select:focus,
+textarea:focus, 
+button:focus{ outline: none !important; background: #222; color: var(--white); font-family: var(--vietnam); box-shadow: none !important; }
+
+/*Background*/
+.black-bg{ background-color: var(--black); color: var(--white); }
+.black-bg label{ color: var(--white)!important; font-size: 14px!important; margin-bottom: 8px!important; font-weight: 500!important; }
+.black-bg input,
+.black-bg select,
+.black-bg textarea{ background: #080808 !important; border: 1px solid #272626!important; margin: 0!important; color: var(--white)!important; }
+
+.grey-bg { background: var(--gray); }
+
+/*Titles*/
+h1 { font-size: 58px; }
+h2 { font-size: 48px; }
+h3 { font-size: 36px; line-height: 1.3; }
+h4 { font-size: 24px; line-height: 1.3; }
+
+/*Top Section Title*/
+.top-section-title { display: flex; flex-direction: column; }
+.top-section-title .sub-title { text-transform: uppercase; font-size: 14px; padding-bottom: 10px; font-weight: 500; }
+.top-section-title .sub-title i{ margin-right: 5px; display: inline-block; }
+.top-section-title .title { font-size: 36px; font-weight: 700; position: relative; line-height: 1.3; }
+.top-section-title p { font-size: 18px; }
+
+/*Webkit Scrollbars*/
+::-webkit-scrollbar { width: 15px; height: 15px; }  
+::-webkit-scrollbar-track { background: var(--white); }
+::-webkit-scrollbar-thumb { border-radius: 20px; border: 3px solid var(--white); background: #999; }
+::-webkit-scrollbar-thumb:hover { background: #888; }
+
+/*Carrousel Arrows*/
+.carrousel-arrow{ transition: var(--transition); z-index: 10; cursor: pointer; height: 40px; width: 40px; border: 1px solid #CCC; border-radius: 50%; overflow: hidden; color: transparent; display: flex; align-items: center; justify-content: center; background: transparent; text-indent: 300px; position: relative; }
+.carrousel-arrow:before{ content: '\e804'; font-family: var(--qubika); margin-top: 1px; color: var(--black); font-size: 19px; position: absolute; transition: var(--transition); text-indent: 0; left: 50%; margin-left: -9px; }
+.carrousel-arrow.carrousel-next{ margin-left: 10px; }
+.carrousel-arrow.carrousel-next:before{ content: '\e807'; }
+
+.carrousel-arrow.carrousel-next:hover:before{ margin-left: -7px; }
+.carrousel-arrow.carrousel-prev:hover:before{ margin-left: -11px; }
+
+.carrousel-arrow:hover{ border-color: #999; }
+
+/*Carrousel Dots*/
+.carrousel-dots{ display: flex; }
+.carrousel-dots .swiper-pagination-bullet{ cursor: pointer; background: #D9D9D9; border-radius: 100%; height: 9px; width: 9px; margin-right: 8px; padding: 0; font-size: 0; border: none; opacity: 1; transition: var(--transition); } 
+.carrousel-dots .swiper-pagination-bullet:hover,
+.carrousel-dots .swiper-pagination-bullet.swiper-pagination-bullet-active{ background: #373737; }
+
+/*Hero*/
+.hero{ position: relative; height: 100vh; display: flex; align-items: center; justify-content: center; min-height: 680px; }
+.hero .content .text-wrapper{ text-align: center; margin-bottom: 40px; }
+.hero .content .text-wrapper .sub-title{ font-size: 20px; font-weight: 400; }
+.hero .content .text-wrapper .title{ font-weight: 700; max-width: 900px; margin: 20px auto 55px; }
+.hero .content .text-wrapper .button{ margin: auto; font-weight: 300; padding: 16px 32px; font-size: 16px; }
+
+/*Tabs*/
+.tabs-wrapper{}
+
+/*Tabs Nav*/
+.tabs-wrapper .tabs-nav{ position: relative; padding: 0; }
+
+.tabs-wrapper .tabs-nav ul{ display: flex; justify-content: center; margin-bottom: 40px; }
+.tabs-wrapper .tabs-nav ul li{ border: 1px solid #9D9D9D; color: #9D9D9D; border-radius: 50px; font-size: .8em; margin: 0 10px 10px 0; cursor: pointer; transition: var(--transition); white-space: nowrap; display: inline-block; width: auto; }
+.tabs-wrapper .tabs-nav ul li span{ display: block; padding: 5px 15px; text-align: center; }
+.tabs-wrapper .tabs-nav ul li:hover{ border-color: var(--black); color: var(--black); }
+.tabs-wrapper .tabs-nav ul li.active{ background: var(--blue); color: var(--white); border-color: var(--blue); }
+
+.tabs-wrapper .tabs-nav.carrousel-on ul li:hover{ border-color: #9D9D9D; color: #9D9D9D; }
+.tabs-wrapper .tabs-nav.carrousel-on ul li.active:hover{ color: var(--white); }
+
+.tabs-wrapper .tabs-nav .tab-prev{ position: absolute; left: 0; top: 3px; z-index: 10; width: 20px; height: 20px; align-items: center; justify-content: center; display: none !important; }
+.tabs-wrapper .tabs-nav .tab-next{ position: absolute; right: 0; top: 3px; z-index: 10; width: 20px; height: 20px; align-items: center; justify-content: center; display: none !important; }
+
+/*Tabs Content*/
+.tabs-wrapper .tabs-content{}
+.tabs-wrapper .tabs-content .tab-content{ opacity: 0; max-height: 0; visibility: hidden; transition: opacity .3s; }
+.tabs-wrapper .tabs-content .tab-content.active{ opacity: 1; max-height: 1200px; visibility: visible; }
+
+/*Hide reCAPTCHA floating bubble*/
+.grecaptcha-badge{ visibility: hidden; }
+.recaptcha-message{ font-size: 11px; opacity: .7; line-height: 1.7; }
+.recaptcha-message a{ color: var(--white); }
+.recaptcha-message a:hover{ text-decoration: underline; }
+
+/*WP Forms*/
+div.wpforms-container-full .wpforms-confirmation-container-full, 
+div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message){ background: none !important; color: var(--white) !important; padding: 0 !important; border: none !important; line-height: 1.5 !important; margin-bottom: 40px !important; }
+
+/*Cookie Manager*/ 
+.cky-btn-revisit-wrapper{ display: none !important; }
+
+@media screen and (max-width: 1024px){
+
+    /*Tabs Nav*/
+    .tabs-wrapper .tabs-nav ul{ justify-content: flex-start !important; align-items: flex-start !important; }
+
+}
